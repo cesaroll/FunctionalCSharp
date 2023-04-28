@@ -15,14 +15,6 @@ public class Wallet
 
     public void Charge(Currency currency, decimal amount)
     {
-        decimal remainingAmount = amount;
-        using (IEnumerator<Money> money = this.Content.GetEnumerator())
-        {
-            while (money.MoveNext() && remainingAmount > 0)
-            {
-                var paid = money.Current.Withdraw(currency, remainingAmount);
-                remainingAmount -= paid;
-            }
-        }
+        var moneys = this.Content.Select(money => money.Of(currency));
     }
 }
