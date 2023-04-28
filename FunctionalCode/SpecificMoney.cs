@@ -22,7 +22,7 @@ namespace FunctionalCode
             return new Empty(currency);
         }
 
-        public abstract Tuple<Amount, Money> Take(decimal amount);
+        public abstract (Amount taken, Money remaining) Take(decimal amount);
     }
 
     public class Empty : SpecificMoney
@@ -36,7 +36,7 @@ namespace FunctionalCode
             throw new NotImplementedException();
         }
 
-        public override Tuple<Amount, Money> Take(decimal amount)
+        public override (Amount taken, Money remaining) Take(decimal amount)
         {
             throw new NotImplementedException();
         }
