@@ -22,7 +22,11 @@ public class Amount : SpecificMoney
         decimal taken = Math.Min(this.Value, amount);
         decimal remaining = this.Value - taken;
 
-        return (new Amount(base.Currency, taken), (Money)new Amount(base.Currency, remaining));
+        return
+        (
+            new Amount(base.Currency, taken),
+            (Money)new Amount(base.Currency, remaining)
+        );
     }
 
     public static Amount Zero(Currency currency) => new Amount(currency, 0);

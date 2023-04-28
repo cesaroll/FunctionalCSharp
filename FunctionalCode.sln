@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionalCode", "FunctionalCode\FunctionalCode.csproj", "{4019FE40-CD0F-47B3-87F1-2F0B7A948AFB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonacci", "Fibonacci\Fibonacci.csproj", "{A8EE3EC4-CD5C-4943-8D41-DE56E3393E4E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{4019FE40-CD0F-47B3-87F1-2F0B7A948AFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4019FE40-CD0F-47B3-87F1-2F0B7A948AFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4019FE40-CD0F-47B3-87F1-2F0B7A948AFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8EE3EC4-CD5C-4943-8D41-DE56E3393E4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8EE3EC4-CD5C-4943-8D41-DE56E3393E4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8EE3EC4-CD5C-4943-8D41-DE56E3393E4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8EE3EC4-CD5C-4943-8D41-DE56E3393E4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
