@@ -7,5 +7,5 @@ namespace FunctionalCode;
 public abstract class Money
 {
     public abstract SpecificMoney Of(Currency currency);
-    public abstract Decimal Withdraw();
+    public abstract Decimal Withdraw(Currency currency, decimal amount);
 }

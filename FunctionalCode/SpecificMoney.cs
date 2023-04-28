@@ -27,7 +27,7 @@ namespace FunctionalCode
         {
         }
 
-        public override decimal Withdraw()
+        public override decimal Withdraw(Currency currency, decimal amount)
         {
             throw new NotImplementedException();
         }
