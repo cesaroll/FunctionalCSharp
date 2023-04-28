@@ -6,12 +6,18 @@ namespace FunctionalCode;
 
 public class BankCard
 {
-    public DateTime ValidBefore { get; set; }
-    public decimal Balance { get; set; }
+    public DateTime ValidBefore { get; }
+    public decimal Balance { get; }
 
-    public decimal GetAvailableAmount(decimal desired)
+    public BankCard(DateTime validBefore, decimal balance)
     {
-        if (DateTime.Now.CompareTo(this.ValidBefore) >= 0)
+        this.ValidBefore = validBefore;
+        this.Balance = balance;
+    }
+
+    public decimal GetAvailableAmount(decimal desired, DateTime at)
+    {
+        if (at.CompareTo(this.ValidBefore) >= 0)
             return 0;
 
         return Math.Min(this.Balance, desired);
