@@ -1,0 +1,15 @@
+/Users/cesarl/dev/dotnet/FunctionalCSharp/Fibonacci/obj/Debug/net7.0/Fibonacci.csproj.AssemblyReference.cache
+/Users/cesarl/dev/dotnet/FunctionalCSharp/Fibonacci/obj/Debug/net7.0/Fibonacci.GeneratedMSBuildEditorConfig.editorconfig
+/Users/cesarl/dev/dotnet/FunctionalCSharp/Fibonacci/obj/Debug/net7.0/Fibonacci.AssemblyInfoInputs.cache
+/Users/cesarl/dev/dotnet/FunctionalCSharp/Fibonacci/obj/Debug/net7.0/Fibonacci.AssemblyInfo.cs
+/Users/cesarl/dev/dotnet/FunctionalCSharp/Fibonacci/obj/Debug/net7.0/Fibonacci.csproj.CoreCompileInputs.cache
+/Users/cesarl/dev/dotnet/FunctionalCSharp/Fibonacci/bin/Debug/net7.0/Fibonacci
+/Users/cesarl/dev/dotnet/FunctionalCSharp/Fibonacci/bin/Debug/net7.0/Fibonacci.deps.json
+/Users/cesarl/dev/dotnet/FunctionalCSharp/Fibonacci/bin/Debug/net7.0/Fibonacci.runtimeconfig.json
+/Users/cesarl/dev/dotnet/FunctionalCSharp/Fibonacci/bin/Debug/net7.0/Fibonacci.dll
+/Users/cesarl/dev/dotnet/FunctionalCSharp/Fibonacci/bin/Debug/net7.0/Fibonacci.pdb
+/Users/cesarl/dev/dotnet/FunctionalCSharp/Fibonacci/obj/Debug/net7.0/Fibonacci.dll
+/Users/cesarl/dev/dotnet/FunctionalCSharp/Fibonacci/obj/Debug/net7.0/refint/Fibonacci.dll
+/Users/cesarl/dev/dotnet/FunctionalCSharp/Fibonacci/obj/Debug/net7.0/Fibonacci.pdb
+/Users/cesarl/dev/dotnet/FunctionalCSharp/Fibonacci/obj/Debug/net7.0/Fibonacci.genruntimeconfig.cache
+/Users/cesarl/dev/dotnet/FunctionalCSharp/Fibonacci/obj/Debug/net7.0/ref/Fibonacci.dll
